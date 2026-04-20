@@ -1,0 +1,3 @@
+{
+  "/dashboard/[teamSlug]/limits/page": "app/dashboard/[teamSlug]/limits/page.js"
+}

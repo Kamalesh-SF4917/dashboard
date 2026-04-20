@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/app/dashboard/%5BteamSlug%5D/not-found.tsx"],"sourcesContent":["import NotFound from '@/ui/not-found'\r\n\r\nexport default function TeamNotFound() {\r\n  return <NotFound />\r\n}\r\n"],"names":[],"mappings":"0DAAA,EAAA,EAAA,CAAA,CAAA,QAEe,SAAS,IACtB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,EAAA,OAAQ,CAAA,CAAA,EAClB"}

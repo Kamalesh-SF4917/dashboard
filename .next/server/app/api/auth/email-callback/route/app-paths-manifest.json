@@ -1,0 +1,3 @@
+{
+  "/api/auth/email-callback/route": "app/api/auth/email-callback/route.js"
+}

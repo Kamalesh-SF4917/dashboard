@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(rewrites)/layout,_N_T_/(rewrites)/not-found/layout,_N_T_/(rewrites)/not-found/page,_N_T_/not-found"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHJld3JpdGVzKQ/not-found/__PAGE__",
+    "/!KHJld3JpdGVzKQ/not-found",
+    "/!KHJld3JpdGVzKQ",
+    "/_index",
+    "/_head"
+  ]
+}

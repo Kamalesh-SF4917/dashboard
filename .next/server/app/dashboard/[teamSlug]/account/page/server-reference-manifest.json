@@ -1,0 +1,80 @@
+{
+  "node": {
+    "80b116ee639715e57414a1cbd2ec97900d9f6a3650": {
+      "workers": {
+        "app/dashboard/[teamSlug]/account/page": {
+          "moduleId": 592632,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/account/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_CACHE_0",
+      "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+    },
+    "40cccb435b716855a454b3258583fc4908cbdf3792": {
+      "workers": {
+        "app/dashboard/[teamSlug]/account/page": {
+          "moduleId": 592632,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/account/page": "action-browser"
+      },
+      "exportedName": "signOutAction",
+      "filename": "src/core/server/actions/auth-actions.ts"
+    },
+    "7fee3eb5044fe8eb28c256dcaae6c5a7e0f4d3b331": {
+      "workers": {
+        "app/dashboard/[teamSlug]/account/page": {
+          "moduleId": 592632,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/account/page": "action-browser"
+      },
+      "exportedName": "createTeamAction",
+      "filename": "src/core/server/actions/team-actions.ts"
+    },
+    "7f604b60a7338e0b621aa5a4af4887c21e85c0e048": {
+      "workers": {
+        "app/dashboard/[teamSlug]/account/page": {
+          "moduleId": 592632,
+          "async": false,
+          "exportedName": "getUserAccessTokenAction",
+          "filename": "src/core/server/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/account/page": "action-browser"
+      },
+      "exportedName": "getUserAccessTokenAction",
+      "filename": "src/core/server/actions/user-actions.ts"
+    },
+    "7fbf90650efff7c352f8e127efc50fd59b265191d2": {
+      "workers": {
+        "app/dashboard/[teamSlug]/account/page": {
+          "moduleId": 592632,
+          "async": false,
+          "exportedName": "updateUserAction",
+          "filename": "src/core/server/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/account/page": "action-browser"
+      },
+      "exportedName": "updateUserAction",
+      "filename": "src/core/server/actions/user-actions.ts"
+    }
+  },
+  "edge": {}
+}

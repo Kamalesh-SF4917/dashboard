@@ -1,0 +1,35 @@
+{
+  "node": {
+    "7fe9037afc9241081913d0e707f9b9f2ced514df71": {
+      "workers": {
+        "app/(auth)/sign-in/page": {
+          "moduleId": 888227,
+          "async": false,
+          "exportedName": "signInAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/page": "action-browser"
+      },
+      "exportedName": "signInAction",
+      "filename": "src/core/server/actions/auth-actions.ts"
+    },
+    "7fd969b51b771f1ab76d1476dd970dedf2cfeabd59": {
+      "workers": {
+        "app/(auth)/sign-in/page": {
+          "moduleId": 888227,
+          "async": false,
+          "exportedName": "signInWithOAuthAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/page": "action-browser"
+      },
+      "exportedName": "signInWithOAuthAction",
+      "filename": "src/core/server/actions/auth-actions.ts"
+    }
+  },
+  "edge": {}
+}

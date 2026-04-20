@@ -1,0 +1,3 @@
+module.exports=[233405,(a,b,c)=>{b.exports=a.x("child_process",()=>require("child_process"))},787790,a=>{"use strict";var b=a.i(233405);let c=a.i(224361).promisify(b.exec);a.s(["execAsync",0,c])},390578,a=>{"use strict";var b=a.i(605365),c=a.i(787790),d=a.i(983737);async function e(){let a="%windir%\\System32\\REG.exe";"ia32"===b.arch&&"PROCESSOR_ARCHITEW6432"in b.env&&(a="%windir%\\sysnative\\cmd.exe /c "+a);try{let b=(await (0,c.execAsync)(`${a} QUERY HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Cryptography /v MachineGuid`)).stdout.split("REG_SZ");if(2===b.length)return b[1].trim()}catch(a){d.diag.debug(`error reading machine id: ${a}`)}}a.s(["getMachineId",()=>e])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__ebcd9f2d._.js.map

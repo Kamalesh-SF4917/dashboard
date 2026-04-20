@@ -1,0 +1,3 @@
+{
+  "/api/teams/[teamSlug]/metrics/route": "app/api/teams/[teamSlug]/metrics/route.js"
+}
