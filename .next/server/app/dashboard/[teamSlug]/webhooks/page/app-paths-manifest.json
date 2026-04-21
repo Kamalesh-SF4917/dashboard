@@ -1,0 +1,3 @@
+{
+  "/dashboard/[teamSlug]/webhooks/page": "app/dashboard/[teamSlug]/webhooks/page.js"
+}

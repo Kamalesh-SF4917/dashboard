@@ -1,0 +1,720 @@
+{
+  "node": {
+    "7f6af63ddacf1a81e172e34e8f8d6085d4e6c444c1": {
+      "workers": {
+        "app/(auth)/forgot-password/page": {
+          "moduleId": 266607,
+          "async": false,
+          "exportedName": "forgotPasswordAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/(auth)/forgot-password/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/auth-actions.ts",
+      "exportedName": "forgotPasswordAction"
+    },
+    "7fe9037afc9241081913d0e707f9b9f2ced514df71": {
+      "workers": {
+        "app/(auth)/sign-in/page": {
+          "moduleId": 888227,
+          "async": false,
+          "exportedName": "signInAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/auth-actions.ts",
+      "exportedName": "signInAction"
+    },
+    "7fd969b51b771f1ab76d1476dd970dedf2cfeabd59": {
+      "workers": {
+        "app/(auth)/sign-in/page": {
+          "moduleId": 888227,
+          "async": false,
+          "exportedName": "signInWithOAuthAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/(auth)/sign-up/page": {
+          "moduleId": 343894,
+          "async": false,
+          "exportedName": "signInWithOAuthAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(auth)/sign-up/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/auth-actions.ts",
+      "exportedName": "signInWithOAuthAction"
+    },
+    "7f11d138c64dd62489a82346a0604965876fc23cbe": {
+      "workers": {
+        "app/(auth)/sign-up/page": {
+          "moduleId": 343894,
+          "async": false,
+          "exportedName": "signUpAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-up/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/auth-actions.ts",
+      "exportedName": "signUpAction"
+    },
+    "80b116ee639715e57414a1cbd2ec97900d9f6a3650": {
+      "workers": {
+        "app/dashboard/[teamSlug]/account/page": {
+          "moduleId": 592632,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/billing/page": {
+          "moduleId": 458548,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/billing/plan/page": {
+          "moduleId": 717710,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/billing/plan/select/page": {
+          "moduleId": 787041,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/general/page": {
+          "moduleId": 570777,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/keys/page": {
+          "moduleId": 447889,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/limits/page": {
+          "moduleId": 274556,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/members/page": {
+          "moduleId": 233590,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@list/page": {
+          "moduleId": 236212,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@monitoring/page": {
+          "moduleId": 484331,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/page": {
+          "moduleId": 965411,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/filesystem/page": {
+          "moduleId": 258035,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/logs/page": {
+          "moduleId": 665328,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/monitoring/page": {
+          "moduleId": 171659,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/templates/(tabs)/@builds/page": {
+          "moduleId": 104836,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/templates/(tabs)/@list/page": {
+          "moduleId": 843791,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/templates/[templateId]/builds/[buildId]/page": {
+          "moduleId": 201335,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/usage/page": {
+          "moduleId": 760481,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        },
+        "app/dashboard/[teamSlug]/webhooks/page": {
+          "moduleId": 416835,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/features/dashboard/layouts/status-indicator.server.tsx"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/account/page": "rsc",
+        "app/dashboard/[teamSlug]/billing/page": "rsc",
+        "app/dashboard/[teamSlug]/billing/plan/page": "rsc",
+        "app/dashboard/[teamSlug]/billing/plan/select/page": "rsc",
+        "app/dashboard/[teamSlug]/general/page": "rsc",
+        "app/dashboard/[teamSlug]/keys/page": "rsc",
+        "app/dashboard/[teamSlug]/limits/page": "rsc",
+        "app/dashboard/[teamSlug]/members/page": "rsc",
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@list/page": "rsc",
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@monitoring/page": "rsc",
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/page": "rsc",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/filesystem/page": "rsc",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/logs/page": "rsc",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/monitoring/page": "rsc",
+        "app/dashboard/[teamSlug]/templates/(tabs)/@builds/page": "rsc",
+        "app/dashboard/[teamSlug]/templates/(tabs)/@list/page": "rsc",
+        "app/dashboard/[teamSlug]/templates/[templateId]/builds/[buildId]/page": "rsc",
+        "app/dashboard/[teamSlug]/usage/page": "rsc",
+        "app/dashboard/[teamSlug]/webhooks/page": "rsc"
+      },
+      "filename": "src/features/dashboard/layouts/status-indicator.server.tsx",
+      "exportedName": "$$RSC_SERVER_CACHE_0"
+    },
+    "40cccb435b716855a454b3258583fc4908cbdf3792": {
+      "workers": {
+        "app/dashboard/[teamSlug]/account/page": {
+          "moduleId": 592632,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/billing/page": {
+          "moduleId": 458548,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/billing/plan/page": {
+          "moduleId": 717710,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/billing/plan/select/page": {
+          "moduleId": 787041,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/general/page": {
+          "moduleId": 570777,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/keys/page": {
+          "moduleId": 447889,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/limits/page": {
+          "moduleId": 274556,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/members/page": {
+          "moduleId": 233590,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@list/page": {
+          "moduleId": 236212,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@monitoring/page": {
+          "moduleId": 484331,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/page": {
+          "moduleId": 965411,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/filesystem/page": {
+          "moduleId": 258035,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/logs/page": {
+          "moduleId": 665328,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/monitoring/page": {
+          "moduleId": 171659,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/templates/(tabs)/@builds/page": {
+          "moduleId": 104836,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/templates/(tabs)/@list/page": {
+          "moduleId": 843791,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/templates/[templateId]/builds/[buildId]/page": {
+          "moduleId": 201335,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/usage/page": {
+          "moduleId": 760481,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/webhooks/page": {
+          "moduleId": 416835,
+          "async": false,
+          "exportedName": "signOutAction",
+          "filename": "src/core/server/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/account/page": "action-browser",
+        "app/dashboard/[teamSlug]/billing/page": "action-browser",
+        "app/dashboard/[teamSlug]/billing/plan/page": "action-browser",
+        "app/dashboard/[teamSlug]/billing/plan/select/page": "action-browser",
+        "app/dashboard/[teamSlug]/general/page": "action-browser",
+        "app/dashboard/[teamSlug]/keys/page": "action-browser",
+        "app/dashboard/[teamSlug]/limits/page": "action-browser",
+        "app/dashboard/[teamSlug]/members/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@list/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@monitoring/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/filesystem/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/logs/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/monitoring/page": "action-browser",
+        "app/dashboard/[teamSlug]/templates/(tabs)/@builds/page": "action-browser",
+        "app/dashboard/[teamSlug]/templates/(tabs)/@list/page": "action-browser",
+        "app/dashboard/[teamSlug]/templates/[templateId]/builds/[buildId]/page": "action-browser",
+        "app/dashboard/[teamSlug]/usage/page": "action-browser",
+        "app/dashboard/[teamSlug]/webhooks/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/auth-actions.ts",
+      "exportedName": "signOutAction"
+    },
+    "7fee3eb5044fe8eb28c256dcaae6c5a7e0f4d3b331": {
+      "workers": {
+        "app/dashboard/[teamSlug]/account/page": {
+          "moduleId": 592632,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/billing/page": {
+          "moduleId": 458548,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/billing/plan/page": {
+          "moduleId": 717710,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/billing/plan/select/page": {
+          "moduleId": 787041,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/general/page": {
+          "moduleId": 570777,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/keys/page": {
+          "moduleId": 447889,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/limits/page": {
+          "moduleId": 274556,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/members/page": {
+          "moduleId": 233590,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@list/page": {
+          "moduleId": 236212,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@monitoring/page": {
+          "moduleId": 484331,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/page": {
+          "moduleId": 965411,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/filesystem/page": {
+          "moduleId": 258035,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/logs/page": {
+          "moduleId": 665328,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/monitoring/page": {
+          "moduleId": 171659,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/templates/(tabs)/@builds/page": {
+          "moduleId": 104836,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/templates/(tabs)/@list/page": {
+          "moduleId": 843791,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/templates/[templateId]/builds/[buildId]/page": {
+          "moduleId": 201335,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/usage/page": {
+          "moduleId": 760481,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/webhooks/page": {
+          "moduleId": 416835,
+          "async": false,
+          "exportedName": "createTeamAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/account/page": "action-browser",
+        "app/dashboard/[teamSlug]/billing/page": "action-browser",
+        "app/dashboard/[teamSlug]/billing/plan/page": "action-browser",
+        "app/dashboard/[teamSlug]/billing/plan/select/page": "action-browser",
+        "app/dashboard/[teamSlug]/general/page": "action-browser",
+        "app/dashboard/[teamSlug]/keys/page": "action-browser",
+        "app/dashboard/[teamSlug]/limits/page": "action-browser",
+        "app/dashboard/[teamSlug]/members/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@list/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/@monitoring/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/(tabs)/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/filesystem/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/logs/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/monitoring/page": "action-browser",
+        "app/dashboard/[teamSlug]/templates/(tabs)/@builds/page": "action-browser",
+        "app/dashboard/[teamSlug]/templates/(tabs)/@list/page": "action-browser",
+        "app/dashboard/[teamSlug]/templates/[templateId]/builds/[buildId]/page": "action-browser",
+        "app/dashboard/[teamSlug]/usage/page": "action-browser",
+        "app/dashboard/[teamSlug]/webhooks/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/team-actions.ts",
+      "exportedName": "createTeamAction"
+    },
+    "7f604b60a7338e0b621aa5a4af4887c21e85c0e048": {
+      "workers": {
+        "app/dashboard/[teamSlug]/account/page": {
+          "moduleId": 592632,
+          "async": false,
+          "exportedName": "getUserAccessTokenAction",
+          "filename": "src/core/server/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/account/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/user-actions.ts",
+      "exportedName": "getUserAccessTokenAction"
+    },
+    "7fbf90650efff7c352f8e127efc50fd59b265191d2": {
+      "workers": {
+        "app/dashboard/[teamSlug]/account/page": {
+          "moduleId": 592632,
+          "async": false,
+          "exportedName": "updateUserAction",
+          "filename": "src/core/server/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/account/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/user-actions.ts",
+      "exportedName": "updateUserAction"
+    },
+    "7f05f0018e1a632583b0d1ce3432a40a152e29b848": {
+      "workers": {
+        "app/dashboard/[teamSlug]/general/page": {
+          "moduleId": 570777,
+          "async": false,
+          "exportedName": "updateTeamNameAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/general/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/team-actions.ts",
+      "exportedName": "updateTeamNameAction"
+    },
+    "7f073344d57632ecc13b1269ae4616c78618f93e31": {
+      "workers": {
+        "app/dashboard/[teamSlug]/general/page": {
+          "moduleId": 570777,
+          "async": false,
+          "exportedName": "uploadTeamProfilePictureAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/general/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/team-actions.ts",
+      "exportedName": "uploadTeamProfilePictureAction"
+    },
+    "7f8065bd3b9b8bb2304038e4c162455df52050e110": {
+      "workers": {
+        "app/dashboard/[teamSlug]/keys/page": {
+          "moduleId": 447889,
+          "async": false,
+          "exportedName": "createApiKeyAction",
+          "filename": "src/core/server/actions/key-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/keys/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/key-actions.ts",
+      "exportedName": "createApiKeyAction"
+    },
+    "c09dfe5c6f678fbfec1fc29759a32ca8c54760e385": {
+      "workers": {
+        "app/dashboard/[teamSlug]/keys/page": {
+          "moduleId": 447889,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/core/server/functions/keys/get-api-keys.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/keys/page": "rsc"
+      },
+      "filename": "src/core/server/functions/keys/get-api-keys.ts",
+      "exportedName": "$$RSC_SERVER_CACHE_0"
+    },
+    "7fb1f69874bdfad8bf5064756c9f28ba04618c7c4f": {
+      "workers": {
+        "app/dashboard/[teamSlug]/keys/page": {
+          "moduleId": 447889,
+          "async": false,
+          "exportedName": "deleteApiKeyAction",
+          "filename": "src/core/server/actions/key-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/keys/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/key-actions.ts",
+      "exportedName": "deleteApiKeyAction"
+    },
+    "7f38c2196a1c9cfa55c1f86252c8c6a4457aefeaaf": {
+      "workers": {
+        "app/dashboard/[teamSlug]/members/page": {
+          "moduleId": 233590,
+          "async": false,
+          "exportedName": "addTeamMemberAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/members/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/team-actions.ts",
+      "exportedName": "addTeamMemberAction"
+    },
+    "7fa56e01f1f02b922c32d1b508f6b80734345dd950": {
+      "workers": {
+        "app/dashboard/[teamSlug]/members/page": {
+          "moduleId": 233590,
+          "async": false,
+          "exportedName": "removeTeamMemberAction",
+          "filename": "src/core/server/actions/team-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/members/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/team-actions.ts",
+      "exportedName": "removeTeamMemberAction"
+    },
+    "7f18f711f64aa7bf754c5ad2b497b4e9db24b88f80": {
+      "workers": {
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/filesystem/page": {
+          "moduleId": 258035,
+          "async": false,
+          "exportedName": "killSandboxAction",
+          "filename": "src/core/server/actions/sandbox-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/logs/page": {
+          "moduleId": 665328,
+          "async": false,
+          "exportedName": "killSandboxAction",
+          "filename": "src/core/server/actions/sandbox-actions.ts"
+        },
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/monitoring/page": {
+          "moduleId": 171659,
+          "async": false,
+          "exportedName": "killSandboxAction",
+          "filename": "src/core/server/actions/sandbox-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/filesystem/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/logs/page": "action-browser",
+        "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/monitoring/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/sandbox-actions.ts",
+      "exportedName": "killSandboxAction"
+    },
+    "c0a5ba479843af4ea8c3ca8638a946a7624105d270": {
+      "workers": {
+        "app/dashboard/[teamSlug]/usage/page": {
+          "moduleId": 760481,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "src/core/server/functions/usage/get-usage.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/usage/page": "rsc"
+      },
+      "filename": "src/core/server/functions/usage/get-usage.ts",
+      "exportedName": "$$RSC_SERVER_CACHE_0"
+    },
+    "7f584d7890bb4ae4c5bdad89a991a88c47baeb6016": {
+      "workers": {
+        "app/dashboard/[teamSlug]/webhooks/page": {
+          "moduleId": 416835,
+          "async": false,
+          "exportedName": "upsertWebhookAction",
+          "filename": "src/core/server/actions/webhooks-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/webhooks/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/webhooks-actions.ts",
+      "exportedName": "upsertWebhookAction"
+    },
+    "7f47c55d9e7083d243d76166089c383dc8adeb52b5": {
+      "workers": {
+        "app/dashboard/[teamSlug]/webhooks/page": {
+          "moduleId": 416835,
+          "async": false,
+          "exportedName": "deleteWebhookAction",
+          "filename": "src/core/server/actions/webhooks-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/webhooks/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/webhooks-actions.ts",
+      "exportedName": "deleteWebhookAction"
+    },
+    "7fe05a4c2a95ea5832bbb554b5bc932dd630053f08": {
+      "workers": {
+        "app/dashboard/[teamSlug]/webhooks/page": {
+          "moduleId": 416835,
+          "async": false,
+          "exportedName": "updateWebhookSecretAction",
+          "filename": "src/core/server/actions/webhooks-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/[teamSlug]/webhooks/page": "action-browser"
+      },
+      "filename": "src/core/server/actions/webhooks-actions.ts",
+      "exportedName": "updateWebhookSecretAction"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "cj88+doXLAiWIC2ggPy1hF3yR0pNVDjK3KhjrA39WaE="
+}

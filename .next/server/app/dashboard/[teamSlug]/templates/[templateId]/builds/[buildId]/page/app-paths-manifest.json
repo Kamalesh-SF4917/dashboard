@@ -1,0 +1,3 @@
+{
+  "/dashboard/[teamSlug]/templates/[templateId]/builds/[buildId]/page": "app/dashboard/[teamSlug]/templates/[templateId]/builds/[buildId]/page.js"
+}

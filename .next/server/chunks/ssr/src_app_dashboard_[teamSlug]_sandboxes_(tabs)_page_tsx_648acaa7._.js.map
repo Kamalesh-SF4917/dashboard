@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/app/dashboard/%5BteamSlug%5D/sandboxes/%28tabs%29/page.tsx"],"sourcesContent":["export default function SandboxesTabsPage() {\r\n  return null // this page is not used, it's just to satisfy the parallel routes\r\n}\r\n"],"names":[],"mappings":"wCAAe,SAAS,IACtB,OAAO,IACT,CADc,kEAAkE"}

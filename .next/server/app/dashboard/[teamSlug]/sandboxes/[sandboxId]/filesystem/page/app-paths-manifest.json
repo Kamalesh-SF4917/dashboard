@@ -1,0 +1,3 @@
+{
+  "/dashboard/[teamSlug]/sandboxes/[sandboxId]/filesystem/page": "app/dashboard/[teamSlug]/sandboxes/[sandboxId]/filesystem/page.js"
+}

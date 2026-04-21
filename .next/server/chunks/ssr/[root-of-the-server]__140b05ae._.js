@@ -1,0 +1,3 @@
+module.exports=[233405,(a,b,c)=>{b.exports=a.x("child_process",()=>require("child_process"))},787790,a=>{"use strict";var b=a.i(233405);let c=a.i(224361).promisify(b.exec);a.s(["execAsync",0,c])},178814,a=>{"use strict";var b=a.i(522734),c=a.i(787790),d=a.i(983737);async function e(){try{return(await b.promises.readFile("/etc/hostid",{encoding:"utf8"})).trim()}catch(a){d.diag.debug(`error reading machine id: ${a}`)}try{return(await (0,c.execAsync)("kenv -q smbios.system.uuid")).stdout.trim()}catch(a){d.diag.debug(`error reading machine id: ${a}`)}}a.s(["getMachineId",()=>e])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__140b05ae._.js.map

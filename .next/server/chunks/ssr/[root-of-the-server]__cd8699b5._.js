@@ -1,0 +1,3 @@
+module.exports=[233405,(a,b,c)=>{b.exports=a.x("child_process",()=>require("child_process"))},787790,a=>{"use strict";var b=a.i(233405);let c=a.i(224361).promisify(b.exec);a.s(["execAsync",0,c])},45926,a=>{"use strict";var b=a.i(787790),c=a.i(983737);async function d(){try{let a=(await (0,b.execAsync)('ioreg -rd1 -c "IOPlatformExpertDevice"')).stdout.split("\n").find(a=>a.includes("IOPlatformUUID"));if(!a)return;let c=a.split('" = "');if(2===c.length)return c[1].slice(0,-1)}catch(a){c.diag.debug(`error reading machine id: ${a}`)}}a.s(["getMachineId",()=>d])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__cd8699b5._.js.map

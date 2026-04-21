@@ -1,0 +1,3 @@
+{
+  "/(rewrites)/not-found/page": "app/(rewrites)/not-found/page.js"
+}
