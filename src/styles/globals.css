@@ -1,0 +1,19 @@
+@import "./theme.css";
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--bg-highlight);
+  border-radius: 2px;
+}
+
+*::selection {
+  background-color: var(--accent-main-bg);
+}
+
+.lucide {
+  stroke-width: 1.5px;
+}

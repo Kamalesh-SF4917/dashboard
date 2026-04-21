@@ -1,0 +1,14 @@
+/* Remove borders */
+#nd-sidebar > div {
+  border-right: none;
+  padding-top: 0;
+}
+
+#nd-tocnav {
+  border-bottom: none;
+}
+
+/* Remove margin from alert description */
+[role="alert"] p {
+  margin: 0;
+}

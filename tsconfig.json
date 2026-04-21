@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/contracts/argus-api": [
+        "./src/core/shared/contracts/argus-api.types.ts"
+      ],
+      "@/contracts/dashboard-api": [
+        "./src/core/shared/contracts/dashboard-api.types.ts"
+      ],
+      "@/contracts/infra-api": [
+        "./src/core/shared/contracts/infra-api.types.ts"
+      ],
+      "@/*": ["./src/*"]
+    },
+    "isolatedModules": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "src",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "stubs"
+  ],
+  "exclude": ["node_modules"]
+}

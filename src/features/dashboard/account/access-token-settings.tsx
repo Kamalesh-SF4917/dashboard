@@ -1,0 +1,42 @@
+'use client'
+
+import { cn } from '@/lib/utils'
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/ui/primitives/card'
+import { useDashboard } from '../context'
+import UserAccessToken from './user-access-token'
+
+interface AccessTokenSettingsProps {
+  className?: string
+}
+
+export function AccessTokenSettings({ className }: AccessTokenSettingsProps) {
+  const { user } = useDashboard()
+
+  if (!user) return null
+
+  return (
+    <Card className={cn('overflow-hidden border-b md:border', className)}>
+      <CardHeader>
+        <CardTitle>Access Token</CardTitle>
+        <CardDescription>Manage your personal access token.</CardDescription>
+      </CardHeader>
+
+      <CardContent>
+        <UserAccessToken className="max-w-lg" />
+      </CardContent>
+
+      <CardFooter className="bg-bg-1 justify-between gap-6">
+        <p className="text-fg-tertiary ">
+          Keep it safe, as it can be used to authenticate with E2B services.
+        </p>
+      </CardFooter>
+    </Card>
+  )
+}
